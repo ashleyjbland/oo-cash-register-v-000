@@ -1,16 +1,18 @@
 class CashRegister
-  attr_accessor
+  attr_reader :total
   @@items
 
-  def initialize(total)
+  def initialize(discount = 0)
     @total = 0
 
   end
 
   def total
+
   end
 
   def add_item
+
   end
 
   def apply_discount
