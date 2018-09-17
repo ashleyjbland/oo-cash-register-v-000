@@ -17,7 +17,7 @@ class CashRegister
   end
 
   def apply_discount
-    @total -= (@price.to_f / @discount)
+    @total -= @discount
     #else
       #"There is no discount to apply."
   #  end
