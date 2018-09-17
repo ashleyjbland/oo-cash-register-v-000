@@ -21,6 +21,7 @@ class CashRegister
       @total.to_f / @discount
     else
       "There is no discount to apply."
+    end
   end
 
   def items
