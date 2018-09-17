@@ -17,11 +17,11 @@ class CashRegister
   end
 
   def apply_discount
-    if @discount
-      @total.to_f / @discount
-    else
-      "There is no discount to apply."
-    end
+    #if @discount
+      #@total.to_f / @discount
+    #else
+      #"There is no discount to apply."
+  #  end
   end
 
   def items
@@ -29,7 +29,7 @@ class CashRegister
   end
 
   def void_last_transaction
-  
+
   end
 
 
